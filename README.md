@@ -1,11 +1,13 @@
 # DinnerTonight 🍽️
 
-DinnerTonight is a simple web app that helps you decide what to cook for dinner by providing recipe suggestions. It fetches recipes using the Spoonacular API and displays them with ingredients, instructions, and images.
-
+DinnerTonight is a bio-generating website designed to help users craft personalized bios for professional, personal, or creative purposes. Using the power of the Groq Cloud API, it simplifies the process of creating engaging and tailored introductions for any setting.
 ## Features
-- Fetch recipe suggestions based on ingredients or meal type.
-- Display detailed recipe information, including ingredients and cooking instructions.
-- Responsive design for seamless use on desktop and mobile devices.
+- ### Dynamic Bio Generation:
+- Input your traits, interests, and career details, and instantly receive a well-crafted bio.
+- ### Customizable Outputs:
+- The generated bios can be modified to match your specific tone and style preferences.
+- ### Intuitive Design:
+- A clean, user-friendly interface optimized for all devices.
 
 ---
 
@@ -13,7 +15,7 @@ DinnerTonight is a simple web app that helps you decide what to cook for dinner 
 
 ### Prerequisites
 1. Python 3.8+ installed on your machine.
-2. A valid Spoonacular API key. (See below for instructions to obtain one.)
+2. A valid Groq API key. (See below for instructions to obtain one.)
 3. Basic knowledge of how to run a Flask application.
 
 ### Steps
