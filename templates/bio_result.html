@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Bio</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Generated Bio</h1>
+
+        <!-- Textarea to display the generated bio -->
+        <label for="bio"><h1>Response</h1></label>
+        <textarea id="bio" rows="6" cols="50" readonly>{{ api_response }}</textarea>
+
+        <!-- Regenerate button -->
+        <form method="POST" action="/generate-bio">
+            <input type="hidden" name="traits" value="{{ traits }}">
+            <input type="hidden" name="interests" value="{{ interests }}">
+            <input type="hidden" name="career" value="{{ career }}">
+            <button type="submit" id="regenerateBtn" class="button">Regenerate Bio</button>
+        </form>
+
+        <!-- Go back to home page -->
+        <a href="/" id="goBackBtn">Go back to the home page</a>
+    </div>
+</body>
+</html>

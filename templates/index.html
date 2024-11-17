@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinnerTonight</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Welcome to <span class="highlight">DinnerTonight</span></h1>
+        <form action="/generate-bio" method="POST" class="form-slide-in" id="bioForm">
+            <div class="form-group" style="position: relative;">
+                <label for="traits">Personality Traits:</label>
+                <input type="text" id="traits" name="traits" required oninput="showSuggestions('traits')" autocomplete="off">
+                <ul id="traits-suggestions" class="suggestions"></ul>
+            </div>
+              
+            <div class="form-group" style="position: relative;">
+                <label for="interests">Interests:</label>
+                <input type="text" id="interests" name="interests" required oninput="showSuggestions('interests')" autocomplete="off">
+                <ul id="interests-suggestions" class="suggestions"></ul>
+            </div>
+            <div class="form-group" style="position: relative;">
+                <label for="career">Career:</label>
+                <input type="text" id="career" name="career" required oninput="showSuggestions('career')" autocomplete="off">
+                <ul id="career-suggestions" class="suggestions"></ul>
+            </div>
+            <button type="submit" class="button">Generate Bio</button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
