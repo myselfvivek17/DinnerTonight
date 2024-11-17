@@ -47,8 +47,8 @@ DinnerTonight is a simple web app that helps you decide what to cook for dinner 
 
 ---
 
-## How to Obtain a Spoonacular API Key
-1. Go to the [Spoonacular API Website](https://spoonacular.com/food-api).
+## How to Obtain a Groq API Key
+1. Go to the [Groq API Website](https://console.groq.com).
 2. Sign up for a free account or log in if you already have one.
 3. Navigate to the API section and generate an API key.
 4. Copy the API key and paste it into the `.env` file as shown above.
@@ -69,17 +69,3 @@ DinnerTonight/
 ├── requirements.txt     # Dependencies
 └── README.md            # Project documentation
 ```
-
----
-
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
----
-
-## License
-This project is licensed under the MIT License.
-
----
-
-Let me know if you need help customizing this further or any additional features!
